@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Oswald:wght@200&display=swap');
+h1{
+	font-size: 5em;
+    margin: 0;
+    padding: 0;
+    
+    position: absolute;
+     font-family: 'Mukta', sans-serif;
+    color: white;
+    text-align: center;
+    top:0%;
+    left: 500px;
+
+
+}
+
+
+body{
+	background-image: url(images/bg.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: 0 0;
+    height: 100vh;
+    
+}
+
+p{
+	margin: 100px;
+	color: #C4A484;
+    font-size: 20px;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+br{
+	margin: 100px;
+	color: #C4A484;
+    font-size: 20px;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    line-height: 36px;
+    height:36px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 13px;
+}
+li{
+    float:right;
+    border-right: 1px solid #D12B49;
+}
+
+a{
+    display: block;
+    padding: 0 28px;
+    color:#D12B49;
+    text-decoration: none;
+
+     
+}
+
+img{
+    width:30px;
+    height:30px;
+ }
+
+ .text::selection{
+    background: red;
+ }
